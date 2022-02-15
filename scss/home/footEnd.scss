@@ -1,0 +1,24 @@
+.footEnd {
+  height: 60px;
+  max-width: 1200px;
+  background-color: #79addc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+
+  .copyRight {
+    display: flex;
+    align-items: center;
+    color: white;
+    //padding-right: 10px;
+  }
+
+  .coLogos {
+    display: flex;
+    align-items: right;
+  }
+}

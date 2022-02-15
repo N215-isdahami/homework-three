@@ -1,0 +1,190 @@
+.bookForm {
+  width: $site-width;
+  min-height: 400px;
+  padding: 50px;
+  //background-color: green;
+  margin: 0 auto;
+
+  .content-wrapper {
+    // background-color: red;
+
+    h1 {
+      font-size: 60px;
+      font-family: ProximaExtraCondensed;
+    }
+
+    form {
+      width: 100%;
+      // background-color: cyan;
+      .textInputs {
+        width: 100%;
+
+        .firstFourInputs {
+          width: 100%;
+          height: 100%;
+          // background-color: cyan;
+
+          .topTwo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+              width: 415px;
+              height: 58px;
+              font-size: 18px;
+              font-family: GillSans;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+
+          .bottomTwo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input {
+              width: 415px;
+              height: 58px;
+              font-size: 18px;
+              font-family: GillSans;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+        }
+
+        .check {
+          font-size: 18px;
+          font-family: GillSans;
+
+          .checkIn {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            label {
+              width: 110px;
+              height: 25px;
+              margin-right: 25px;
+            }
+            input {
+              width: 700px;
+              height: 58px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+          .checkOut {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            label {
+              width: 110px;
+              margin-right: 25px;
+            }
+            input {
+              width: 700px;
+              height: 58px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+        }
+
+        .numbers {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          // background-color: skyblue;
+
+          .adult {
+            width: 30%;
+            font-size: 18px;
+            font-family: GillSans;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: springgreen;
+
+            input {
+              width: 100px;
+              height: 58px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: #79addc;
+            }
+          }
+
+          .children {
+            width: 30%;
+            font-size: 18px;
+            font-family: GillSans;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+              width: 100px;
+              height: 58px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+
+          .rooms {
+            width: 30%;
+            font-size: 18px;
+            font-family: GillSans;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+              width: 100px;
+              height: 58px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: $site-blue;
+            }
+          }
+        }
+
+        .comments {
+          width: 100%;
+          font-size: 18px;
+          font-family: GillSans;
+
+          input {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-color: $site-blue;
+          }
+        }
+      }
+
+      .submitButton {
+        width: 100%;
+        .book-submit {
+          height: 60px;
+          width: 100%;
+          color: $site-white;
+          background-color: $site-blue;
+          border-radius: 50px;
+          border: none;
+        }
+      }
+    }
+  }
+}

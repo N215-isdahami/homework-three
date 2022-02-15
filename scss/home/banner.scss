@@ -1,0 +1,55 @@
+.banner {
+  max-width: $banner-footer-width;
+  height: $banner-height;
+  background-image: linear-gradient(
+      rgba($site-black, 0.5),
+      rgba($site-black, 0.5)
+    ),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+
+  .heroH1 {
+    h1 {
+      text-align: center;
+      position: relative;
+      padding-top: 162px;
+      color: white;
+      font-size: 60px;
+      font-family: ProximaExtraCondensed;
+    }
+  }
+
+  .heroText {
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      font-family: GillSans;
+      font-style: italic;
+    }
+  }
+
+  .heroReadMore {
+    background-color: #79addc;
+    width: 122px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 48px;
+    text-decoration: none;
+
+    span {
+      text-align: center;
+      padding-left: 25px;
+      padding-top: 12px;
+    }
+
+    a {
+      color: $site-white;
+      text-decoration: none;
+    }
+  }
+}

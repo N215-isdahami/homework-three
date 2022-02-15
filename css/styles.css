@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ProximaCondensed;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaThin;
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+nav {
+  max-width: 980px;
+  height: 80x;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  padding-top: 20px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  margin-bottom: 18px;
+}
+nav .links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+}
+.banner .heroH1 h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 162px;
+  color: white;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.banner .heroText p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: GillSans;
+  font-style: italic;
+}
+.banner .heroReadMore {
+  background-color: #79addc;
+  width: 122px;
+  height: 40px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48px;
+  text-decoration: none;
+}
+.banner .heroReadMore span {
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 12px;
+}
+.banner .heroReadMore a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.trips {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: -50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.trips .tripIsrael {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-01.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+.trips .tripIsrael h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripIsrael p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .tripUSA {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+.trips .tripUSA h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripUSA p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .tripAustrailia {
+  width: 236px;
+  height: 304px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+.trips .tripAustrailia h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripAustrailia p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .learnMore {
+  width: 121px;
+  padding: 5px 5px;
+  margin-top: 40px;
+  background-color: #79addc;
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+  border-radius: 27px;
+  text-align: center;
+}
+
+.bookForm {
+  width: 980px;
+  min-height: 400px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.bookForm .content-wrapper h1 {
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.bookForm .content-wrapper form {
+  width: 100%;
+}
+.bookForm .content-wrapper form .textInputs {
+  width: 100%;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs {
+  width: 100%;
+  height: 100%;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .topTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .topTwo input {
+  width: 415px;
+  height: 58px;
+  font-size: 18px;
+  font-family: GillSans;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .bottomTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .bottomTwo input {
+  width: 415px;
+  height: 58px;
+  font-size: 18px;
+  font-family: GillSans;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .check {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn label {
+  width: 110px;
+  height: 25px;
+  margin-right: 25px;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn input {
+  width: 700px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut label {
+  width: 110px;
+  margin-right: 25px;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut input {
+  width: 700px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .adult {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .adult input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers .children {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .children input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers .rooms {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .rooms input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .comments {
+  width: 100%;
+  font-size: 18px;
+  font-family: GillSans;
+}
+.bookForm .content-wrapper form .textInputs .comments input {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .submitButton {
+  width: 100%;
+}
+.bookForm .content-wrapper form .submitButton .book-submit {
+  height: 60px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #79addc;
+  border-radius: 50px;
+  border: none;
+}
+
+.footEnd {
+  height: 60px;
+  max-width: 1200px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.footEnd .copyRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+.footEnd .coLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}

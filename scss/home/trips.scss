@@ -1,0 +1,115 @@
+.trips {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: -50px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // background-color: red;
+
+  .tripIsrael {
+    width: 236px;
+    height: 304px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/tour-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      font-family: ProximaExtraCondensed;
+    }
+    p {
+      text-align: center;
+      font-size: 30px;
+      font-family: ProximaCondensed;
+    }
+  }
+
+  .tripUSA {
+    width: 236px;
+    height: 304px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/tour-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      font-family: ProximaExtraCondensed;
+    }
+    p {
+      text-align: center;
+      font-size: 30px;
+      font-family: ProximaCondensed;
+    }
+  }
+
+  .tripAustrailia {
+    width: 236px;
+    height: 304px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/tour-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      font-family: ProximaExtraCondensed;
+    }
+    p {
+      text-align: center;
+      font-size: 30px;
+      font-family: ProximaCondensed;
+    }
+  }
+
+  .learnMore {
+    width: 121px;
+    padding: 5px 5px;
+    margin-top: 40px;
+    background-color: #79addc;
+    font-size: 15px;
+    font-family: GillSans;
+    color: white;
+    border-radius: 27px;
+    text-align: center;
+  }
+}

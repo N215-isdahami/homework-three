@@ -1,0 +1,31 @@
+nav {
+  max-width: $site-width;
+  height: 80x;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+  padding-top: 20px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    //background-color: green;
+    margin-bottom: 18px;
+  }
+
+  .links {
+    a {
+      color: $site-white;
+      text-decoration: none;
+    }
+
+    span {
+      color: $site-blue;
+      margin: 0 20px;
+    }
+  }
+}
